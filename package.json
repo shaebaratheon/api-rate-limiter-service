@@ -1,0 +1,14 @@
+{
+  "name": "api-rate-limiter-service",
+  "version": "1.0.0",
+  "description": "Distributed sliding-window and token bucket rate limiter service with Redis backplane in TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "shaebaratheon",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
